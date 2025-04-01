@@ -178,11 +178,11 @@ int main(){
         }
 
         if(resultado && resultado2) {
-            printf("Parabéns, você ganhou\n");
+            printf("A carta 1 (%s) venceu!\n", nome1);
         } else if (resultado != resultado2) {
-            printf("Empatou\n");
+            printf("As cartas 1 (%s) e 2 (%s) empataram!\n", nome1, nome2);
         } else {
-            printf("Infelizmente, você perdeu\n");
+            printf("A carta 2 (%s) venceu!\n", nome2);
         }
         
     }
